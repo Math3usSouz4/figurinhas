@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+    font-size: larg; 
+    background-color: #ede9e4;
+    color: #000000;
+   
+}
+
+header {
+    background-color: #1d0808;
+    height: 180px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: sans-serif;
+    color: white;
+}
+
+header figure {
+    width: 100px;
+    height: 100px;
+    background-color: #150707;
+    margin: 0;
+    padding: 0;
+
+}
+main {
+    min-height: 900px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #c0c0c0;
+
+}
+
+.boxlivro {
+    width: 450px;
+    height: 230px;
+    background-color: #76a39f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 50px;
+    display: flex;
+}
+
+.boxlivro:hover {
+    box-shadow: 6px 6px 10px 0;
+    padding: 0;
+}
+
+.boxlivro figure {
+    width: 140px;
+    height: 170px;
+    background-color: #e6e6e6;
+    margin: 0 20px 0 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.boxlivro p{
+
+}
+
+.boxlivro span {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+
+footer {
+    background-color: #abd5aa;
+    height: 70px;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+
+}
+
+footer figure {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin: 0 30px 0 50px;
+    padding: 0;
+    
+}
+
+footer p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 0 0 0 ;
+    color: black;
+}
+button{
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+}
+button:hover{
+    background:linear-gradient(to bottom, #68b465 5%, #abd5aa 100%);
+}
