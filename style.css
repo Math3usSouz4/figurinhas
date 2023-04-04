@@ -1,0 +1,70 @@
+/* DOCUMENTO CSS */
+a{text-decoration: none;}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Comic Sans MS;
+    background-color: #ede9e4;
+    background-image: url(Imagens/champeons.jpg);
+ 
+}
+
+header {
+    height: 100px;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.box{
+    width: 250px;
+    height: 350px;
+    background-color:#59558e;
+    border-radius: 10px;
+    padding: 10px;
+    color: #F5FFFA;
+    text-align: center;
+    margin: 10px;
+}
+.box:hover{
+    box-shadow: 8px 8px 12px #a4a4a4;
+    background-color: #B0C4DE;
+}
+
+.box h2{margin: 0 0 10px 0;
+        padding: 0;
+
+}
+.box figure {width: 250px; 
+    height: 200px; 
+    margin: 0; 
+    padding: 0;}
+    
+
+.box p {
+}
+
+footer { 
+    background-color: #59558e; 
+    height: 70px; 
+    padding-top: 10px; color: white; 
+    text-align: center; 
+    }
+img {
+    border: 4px solid #B0E0E6;
+   border-radius: 35px;
+   
+}
+
+
+
